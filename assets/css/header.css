@@ -84,6 +84,7 @@
     border-radius: 4px;
 }
 .form-search__input {
+    width: 189px;
     padding: 7px 20px;
     border: none;
     outline: none;
