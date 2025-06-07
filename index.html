@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="./assets/css/common.css" />
         <!-- Css header -->
         <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/main.css" />
         <!-- Script -->
         <script src="./js/script.js"></script>
     </head>
@@ -40,7 +41,12 @@
             load("#header", "./templates/header.html");
         </script>
         <!-- Main -->
-        <main id="main" class="main"></main>
+        <main id="main" class="main">
+            <script>
+                load("#main", "./layouts/main.html");
+            </script>
+        </main>
+        <!-- Footer -->
         <footer id="footer" class="footer"></footer>
         <script>
             load("#footer", "./templates/footer.html");
