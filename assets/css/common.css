@@ -69,6 +69,7 @@ button {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
+    row-gap: 60px;
 }
 .product__img-wrap {
     position: relative;
@@ -77,6 +78,19 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.product__label-new {
+    color: #fafafa;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 4px 12px;
+    background: #0f6;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
 }
 .product__discount,
 .product__fill-heart-wrap,
@@ -167,6 +181,25 @@ button {
     font-weight: 600;
     line-height: 1.5;
     opacity: 0.5;
+}
+.product__color-change-row {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.product__color-first {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background: #fb1314;
+}
+.product__color-second {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #db4444;
 }
 body {
     font-family: "Poppins", sans-serif;
