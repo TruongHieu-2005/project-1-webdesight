@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Log in</title>
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="../assets/css/footer.css" />
         <!-- Css sign up -->
         <link rel="stylesheet" href="../assets/css/sign-up.css" />
+        <link rel="stylesheet" href="../assets/css/log-in.css" />
         <!-- Script -->
         <script src="../js/script.js"></script>
     </head>
@@ -50,10 +51,9 @@
                         <img src="../assets/img/sign.png" alt="" class="sign-up-img" />
                     </div>
                     <div class="sign-up__info">
-                        <h3 class="sign-up__title">Create an account</h3>
+                        <h3 class="sign-up__title">Log in to Exclusive</h3>
                         <p class="sign-up__desc">Enter your details below</p>
                         <form class="form-sign-up">
-                            <input type="text" name="" id="" class="form-sign-up__input" placeholder="Name" />
                             <input
                                 type="email"
                                 name=""
@@ -62,15 +62,11 @@
                                 placeholder="Email or Phone Number"
                             />
                             <input type="password" name="" id="" class="form-sign-up__input" placeholder="Password" />
-                            <button class="form-sign-up__btn-create-account">Create Account</button>
-                            <button class="form-sign-up__btn-google">
-                                <img src="../assets/icons/google.svg" alt="" class="google-icon" />Sign up with Google
-                            </button>
+                            <div class="log-in__row">
+                                <button class="log-in__btn">Login</button>
+                                <button class="log-in__forget-password">Forget Password?</button>
+                            </div>
                         </form>
-                        <div class="sign-up__row-wrap">
-                            <p class="sign-up__question">Already have account?</p>
-                            <a href="../layouts/log-in.html" class="sign-up__cta-link">Log in</a>
-                        </div>
                     </div>
                 </div>
             </div>
