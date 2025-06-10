@@ -3,15 +3,18 @@
 }
 /* Top bar */
 .top-bar {
+    background: #000;
+}
+.top-bar__inner {
+    margin-left: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     column-gap: 231px;
-    background: #000;
     padding: 12px;
     color: #fafafa;
 }
 .top-bar__center {
+    margin-left: auto;
     display: flex;
     align-items: center;
     column-gap: 8px;
